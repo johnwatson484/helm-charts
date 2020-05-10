@@ -12,7 +12,7 @@ git clone https://github.com/johnwatson484/helm-charts.git
 # COPY PACKAGE TO REPOSITORY ROOT
 
 # re-index repository
-helm index . --merge ./index.yaml
+helm repo index . --merge ./index.yaml
 
 # commit changes
 git add .
