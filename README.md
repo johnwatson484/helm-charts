@@ -23,7 +23,7 @@ git push
 ## Use chart from repository
 ```
 # add helm repository
-helm repo add helm repo add johnwatson https://johnwatson484.github.io/helm-charts/
+helm repo add johnwatson https://helm.lynxmagnus.com
 
 # update helm repo index
 helm repo update
