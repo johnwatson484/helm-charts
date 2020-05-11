@@ -23,11 +23,11 @@ git push
 ## Use chart from repository
 ```
 # add helm repository
-helm repo add johnwatson https://helm.lynxmagnus.com
+helm repo add lynxmagnus https://helm.lynxmagnus.com
 
 # update helm repo index
 helm repo update
 
 # apply chart
-helm install DEPLOYMENT_NAME johnwatson/HELM_CHART_NAME
+helm install DEPLOYMENT_NAME lynxmagnus/HELM_CHART_NAME
 ```
