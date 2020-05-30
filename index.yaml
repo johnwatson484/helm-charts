@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   helm-library:
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.66638968Z"
+    created: "2020-05-30T19:53:24.276880355Z"
     description: A Helm library chart
     digest: f3a8abe96bc719bb25b060b18c905cf66537ac3c533ba21c56b6586359c5c55c
     name: helm-library
@@ -11,7 +11,7 @@ entries:
     - helm-library-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.666132367Z"
+    created: "2020-05-30T19:53:24.276531854Z"
     description: A Helm library chart
     digest: 08291b4b427ebdcf35a5f1e245ba712d91c8fbbfc4e25438e7a0a45b5941d7f1
     name: helm-library
@@ -20,7 +20,7 @@ entries:
     - helm-library-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.665863753Z"
+    created: "2020-05-30T19:53:24.276156353Z"
     description: A Helm library chart
     digest: eccf03fc9e0ec06e3beb48300cc274f85b62e193b562eb2b0a2d06e18a874aac
     name: helm-library
@@ -29,7 +29,7 @@ entries:
     - helm-library-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.665528736Z"
+    created: "2020-05-30T19:53:24.275857852Z"
     description: A Helm library chart
     digest: 62df1a973a528e9e357dd5b8948d31e93e0d41da1e7fc84358777a2dd1c135e4
     name: helm-library
@@ -39,7 +39,7 @@ entries:
     version: 1.0.0
   kubernetes-test-app:
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.667142718Z"
+    created: "2020-05-30T19:53:24.277209856Z"
     description: A Helm chart for Kubernetes
     digest: 09cf5c926e0341b085532fde2120f2435ba8aa24ddbf52c1742814204d6ce80c
     name: kubernetes-test-app
@@ -49,7 +49,20 @@ entries:
     version: 1.0.0
   sugar-free-healthy-diet:
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.672112868Z"
+    created: "2020-05-30T19:53:24.284266277Z"
+    dependencies:
+    - name: helm-library
+      repository: https://helm.lynxmagnus.com
+      version: ^1.1.2
+    description: A Helm chart for Kubernetes
+    digest: bdab39683111081df491109a666c03a15f2a88b272169812085c794f77f8b719
+    name: sugar-free-healthy-diet
+    type: application
+    urls:
+    - sugar-free-healthy-diet-1.0.14.tgz
+    version: 1.0.14
+  - apiVersion: v2
+    created: "2020-05-30T19:53:24.283547775Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -62,7 +75,7 @@ entries:
     - sugar-free-healthy-diet-1.0.13.tgz
     version: 1.0.13
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.671398732Z"
+    created: "2020-05-30T19:53:24.282719672Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -75,7 +88,7 @@ entries:
     - sugar-free-healthy-diet-1.0.12.tgz
     version: 1.0.12
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.670742699Z"
+    created: "2020-05-30T19:53:24.28173597Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -88,7 +101,7 @@ entries:
     - sugar-free-healthy-diet-1.0.11.tgz
     version: 1.0.11
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.669954559Z"
+    created: "2020-05-30T19:53:24.280814367Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -101,7 +114,7 @@ entries:
     - sugar-free-healthy-diet-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.677807754Z"
+    created: "2020-05-30T19:53:24.292493201Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -114,7 +127,7 @@ entries:
     - sugar-free-healthy-diet-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.676594093Z"
+    created: "2020-05-30T19:53:24.291754099Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -127,7 +140,7 @@ entries:
     - sugar-free-healthy-diet-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.675994263Z"
+    created: "2020-05-30T19:53:24.291049897Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -140,7 +153,7 @@ entries:
     - sugar-free-healthy-diet-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.675366031Z"
+    created: "2020-05-30T19:53:24.290245595Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -153,7 +166,7 @@ entries:
     - sugar-free-healthy-diet-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.674709798Z"
+    created: "2020-05-30T19:53:24.28866269Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -166,7 +179,7 @@ entries:
     - sugar-free-healthy-diet-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.674087667Z"
+    created: "2020-05-30T19:53:24.287421286Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -179,7 +192,7 @@ entries:
     - sugar-free-healthy-diet-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.673456635Z"
+    created: "2020-05-30T19:53:24.286094382Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -192,7 +205,7 @@ entries:
     - sugar-free-healthy-diet-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.672751Z"
+    created: "2020-05-30T19:53:24.285076779Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -205,7 +218,7 @@ entries:
     - sugar-free-healthy-diet-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.668899606Z"
+    created: "2020-05-30T19:53:24.280065365Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -218,7 +231,7 @@ entries:
     - sugar-free-healthy-diet-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-05-30T19:41:55.668063864Z"
+    created: "2020-05-30T19:53:24.277967259Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -230,4 +243,4 @@ entries:
     urls:
     - sugar-free-healthy-diet-1.0.0.tgz
     version: 1.0.0
-generated: "2020-05-30T19:41:55.665124616Z"
+generated: "2020-05-30T19:53:24.27516225Z"
