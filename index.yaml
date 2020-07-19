@@ -2,7 +2,20 @@ apiVersion: v1
 entries:
   azure-service-bus-test-client:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.183298708Z"
+    created: "2020-07-19T20:15:05.35148297Z"
+    dependencies:
+    - name: helm-library
+      repository: https://helm.lynxmagnus.com
+      version: ^1.3.1
+    description: A Helm chart for Kubernetes
+    digest: f07292dacb531a7bab0e432636bf75aeb4e8d18bce8c3d8a71ae3097a9b60db4
+    name: azure-service-bus-test-client
+    type: application
+    urls:
+    - azure-service-bus-test-client-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    created: "2020-07-19T20:15:05.350971262Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -15,7 +28,7 @@ entries:
     - azure-service-bus-test-client-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.182370903Z"
+    created: "2020-07-19T20:15:05.350437053Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -29,7 +42,7 @@ entries:
     version: 1.0.0
   dream-league-api-gateway:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.186050423Z"
+    created: "2020-07-19T20:15:05.3532686Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -42,7 +55,7 @@ entries:
     - dream-league-api-gateway-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.185145418Z"
+    created: "2020-07-19T20:15:05.35265619Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -55,7 +68,7 @@ entries:
     - dream-league-api-gateway-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.184220913Z"
+    created: "2020-07-19T20:15:05.352008579Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -69,7 +82,7 @@ entries:
     version: 1.0.0
   dream-league-identity:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.187021529Z"
+    created: "2020-07-19T20:15:05.35387951Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -83,7 +96,7 @@ entries:
     version: 1.0.0
   dream-league-login:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.188612338Z"
+    created: "2020-07-19T20:15:05.354397518Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -97,7 +110,7 @@ entries:
     version: 1.0.0
   dream-league-web:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.190263047Z"
+    created: "2020-07-19T20:15:05.355428335Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -110,7 +123,7 @@ entries:
     - dream-league-web-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.189525843Z"
+    created: "2020-07-19T20:15:05.354915627Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -124,7 +137,7 @@ entries:
     version: 1.0.0
   helm-library:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.195187674Z"
+    created: "2020-07-19T20:15:05.35993461Z"
     description: A Helm library chart
     digest: 73642ee0f734b5c8a217f333454a3f7aaa9df1cd570fecd3cb1e21b8c206bccc
     name: helm-library
@@ -133,7 +146,7 @@ entries:
     - helm-library-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.194869873Z"
+    created: "2020-07-19T20:15:05.359648605Z"
     description: A Helm library chart
     digest: 23622d9a703ae551d00f46a62b41fce450ece7cb8b9d485b6911f62196e52ba2
     name: helm-library
@@ -142,7 +155,7 @@ entries:
     - helm-library-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.194535571Z"
+    created: "2020-07-19T20:15:05.3593514Z"
     description: A Helm library chart
     digest: bb437a300a82b5966b32bd19aa3bf5afddcde6454d1c5983a61d652f3454c1de
     name: helm-library
@@ -151,7 +164,7 @@ entries:
     - helm-library-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.193321764Z"
+    created: "2020-07-19T20:15:05.35875489Z"
     description: A Helm library chart
     digest: 7e8138329091406d07fdb08550f111afb6485bbfa98591e59372bdbf343f4eeb
     name: helm-library
@@ -160,7 +173,7 @@ entries:
     - helm-library-1.2.4.tgz
     version: 1.2.4
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.192953662Z"
+    created: "2020-07-19T20:15:05.358458286Z"
     description: A Helm library chart
     digest: 5068f430f1c7b382284a4f9dd80cf7c98a9b1bd12c42368e189eb4b4127fc113
     name: helm-library
@@ -169,7 +182,7 @@ entries:
     - helm-library-1.2.3.tgz
     version: 1.2.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.19265686Z"
+    created: "2020-07-19T20:15:05.358155881Z"
     description: A Helm library chart
     digest: c69483b6abb5017ae5c66e1a1eb3e22db161eebd52fb71ab6a5e04346322017b
     name: helm-library
@@ -178,7 +191,7 @@ entries:
     - helm-library-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.192366659Z"
+    created: "2020-07-19T20:15:05.357890876Z"
     description: A Helm library chart
     digest: 799b74856aea513ea7231ea38bbc0f85ef74159dd74ba2ca59f82b446ba9e7f0
     name: helm-library
@@ -187,7 +200,7 @@ entries:
     - helm-library-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.192069957Z"
+    created: "2020-07-19T20:15:05.357619672Z"
     description: A Helm library chart
     digest: 3d7d2f91710808c693c504a43fb49bb782b2413ab69f26e51b41c499b7c50005
     name: helm-library
@@ -196,7 +209,7 @@ entries:
     - helm-library-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.191772255Z"
+    created: "2020-07-19T20:15:05.357132964Z"
     description: A Helm library chart
     digest: 544425e829efeec3c725f19ed310c6ba7e02d5ddf3fef2d4f5bedc1d8513aba8
     name: helm-library
@@ -205,7 +218,7 @@ entries:
     - helm-library-1.1.3.tgz
     version: 1.1.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.191474954Z"
+    created: "2020-07-19T20:15:05.35691936Z"
     description: A Helm library chart
     digest: f3a8abe96bc719bb25b060b18c905cf66537ac3c533ba21c56b6586359c5c55c
     name: helm-library
@@ -214,7 +227,7 @@ entries:
     - helm-library-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.191171252Z"
+    created: "2020-07-19T20:15:05.356135947Z"
     description: A Helm library chart
     digest: 08291b4b427ebdcf35a5f1e245ba712d91c8fbbfc4e25438e7a0a45b5941d7f1
     name: helm-library
@@ -223,7 +236,7 @@ entries:
     - helm-library-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.19087145Z"
+    created: "2020-07-19T20:15:05.355920644Z"
     description: A Helm library chart
     digest: eccf03fc9e0ec06e3beb48300cc274f85b62e193b562eb2b0a2d06e18a874aac
     name: helm-library
@@ -232,7 +245,7 @@ entries:
     - helm-library-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.190566249Z"
+    created: "2020-07-19T20:15:05.35570474Z"
     description: A Helm library chart
     digest: 62df1a973a528e9e357dd5b8948d31e93e0d41da1e7fc84358777a2dd1c135e4
     name: helm-library
@@ -242,7 +255,7 @@ entries:
     version: 1.0.0
   kubernetes-test-app:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.19617768Z"
+    created: "2020-07-19T20:15:05.360777624Z"
     description: A Helm chart for Kubernetes
     digest: 5aa101fd35c91de7ae97c4abc4579f4d5a62355e053a820885818a96706e3fac
     name: kubernetes-test-app
@@ -251,7 +264,7 @@ entries:
     - kubernetes-test-app-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.195849678Z"
+    created: "2020-07-19T20:15:05.360499819Z"
     description: A Helm chart for Kubernetes
     digest: 8ea5fcff462fd695b975a48088ed9da2dead4f15a6ebb8e7a2eaea2d5b345a94
     name: kubernetes-test-app
@@ -260,7 +273,7 @@ entries:
     - kubernetes-test-app-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.195520176Z"
+    created: "2020-07-19T20:15:05.360219715Z"
     description: A Helm chart for Kubernetes
     digest: 09cf5c926e0341b085532fde2120f2435ba8aa24ddbf52c1742814204d6ce80c
     name: kubernetes-test-app
@@ -270,7 +283,7 @@ entries:
     version: 1.0.0
   lynx-magnus-web:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.200108002Z"
+    created: "2020-07-19T20:15:05.363353266Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -283,7 +296,7 @@ entries:
     - lynx-magnus-web-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.199443898Z"
+    created: "2020-07-19T20:15:05.362817458Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -296,7 +309,7 @@ entries:
     - lynx-magnus-web-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.198787194Z"
+    created: "2020-07-19T20:15:05.362314749Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -309,7 +322,7 @@ entries:
     - lynx-magnus-web-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.197614388Z"
+    created: "2020-07-19T20:15:05.361810141Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -322,7 +335,7 @@ entries:
     - lynx-magnus-web-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.196869384Z"
+    created: "2020-07-19T20:15:05.361304833Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -336,7 +349,7 @@ entries:
     version: 1.0.0
   power-lines-accuracy-service:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.204574727Z"
+    created: "2020-07-19T20:15:05.365310199Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -349,7 +362,7 @@ entries:
     - power-lines-accuracy-service-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.20332822Z"
+    created: "2020-07-19T20:15:05.364691989Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -362,7 +375,7 @@ entries:
     - power-lines-accuracy-service-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.201932312Z"
+    created: "2020-07-19T20:15:05.364026378Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -376,7 +389,7 @@ entries:
     version: 1.0.0
   power-lines-analysis-service:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.213438276Z"
+    created: "2020-07-19T20:15:05.372894824Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -389,7 +402,7 @@ entries:
     - power-lines-analysis-service-3.0.11.tgz
     version: 3.0.11
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.212189569Z"
+    created: "2020-07-19T20:15:05.372290914Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -402,7 +415,7 @@ entries:
     - power-lines-analysis-service-3.0.10.tgz
     version: 3.0.10
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.221454921Z"
+    created: "2020-07-19T20:15:05.378133411Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -415,7 +428,7 @@ entries:
     - power-lines-analysis-service-3.0.9.tgz
     version: 3.0.9
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.220614716Z"
+    created: "2020-07-19T20:15:05.377486Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -428,7 +441,7 @@ entries:
     - power-lines-analysis-service-3.0.8.tgz
     version: 3.0.8
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.219763711Z"
+    created: "2020-07-19T20:15:05.376756088Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -441,7 +454,7 @@ entries:
     - power-lines-analysis-service-3.0.7.tgz
     version: 3.0.7
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.218865406Z"
+    created: "2020-07-19T20:15:05.376075677Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -454,7 +467,7 @@ entries:
     - power-lines-analysis-service-3.0.6.tgz
     version: 3.0.6
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.217944501Z"
+    created: "2020-07-19T20:15:05.375379765Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -467,7 +480,7 @@ entries:
     - power-lines-analysis-service-3.0.5.tgz
     version: 3.0.5
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.217047296Z"
+    created: "2020-07-19T20:15:05.374762755Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -480,7 +493,7 @@ entries:
     - power-lines-analysis-service-3.0.4.tgz
     version: 3.0.4
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.216176891Z"
+    created: "2020-07-19T20:15:05.374131145Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -493,7 +506,7 @@ entries:
     - power-lines-analysis-service-3.0.3.tgz
     version: 3.0.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.214578482Z"
+    created: "2020-07-19T20:15:05.373497134Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -506,7 +519,7 @@ entries:
     - power-lines-analysis-service-3.0.2.tgz
     version: 3.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.211347764Z"
+    created: "2020-07-19T20:15:05.371628503Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -519,7 +532,7 @@ entries:
     - power-lines-analysis-service-3.0.1.tgz
     version: 3.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.21050796Z"
+    created: "2020-07-19T20:15:05.371015893Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -532,7 +545,7 @@ entries:
     - power-lines-analysis-service-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.209659155Z"
+    created: "2020-07-19T20:15:05.370362482Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -545,7 +558,7 @@ entries:
     - power-lines-analysis-service-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.20879475Z"
+    created: "2020-07-19T20:15:05.368978359Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -558,7 +571,7 @@ entries:
     - power-lines-analysis-service-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.207973346Z"
+    created: "2020-07-19T20:15:05.367639837Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -571,7 +584,7 @@ entries:
     - power-lines-analysis-service-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.207155741Z"
+    created: "2020-07-19T20:15:05.367040927Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -584,7 +597,7 @@ entries:
     - power-lines-analysis-service-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.206329736Z"
+    created: "2020-07-19T20:15:05.366425817Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -597,7 +610,7 @@ entries:
     - power-lines-analysis-service-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.205556632Z"
+    created: "2020-07-19T20:15:05.365868608Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -611,7 +624,7 @@ entries:
     version: 1.0.0
   power-lines-data-service:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.242038035Z"
+    created: "2020-07-19T20:15:05.394258377Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -624,7 +637,7 @@ entries:
     - power-lines-data-service-2.0.3.tgz
     version: 2.0.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.240714128Z"
+    created: "2020-07-19T20:15:05.393676068Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -637,7 +650,7 @@ entries:
     - power-lines-data-service-2.0.2.tgz
     version: 2.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.239976424Z"
+    created: "2020-07-19T20:15:05.393112558Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -650,7 +663,7 @@ entries:
     - power-lines-data-service-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.23923402Z"
+    created: "2020-07-19T20:15:05.392541049Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -663,7 +676,7 @@ entries:
     - power-lines-data-service-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.233064185Z"
+    created: "2020-07-19T20:15:05.387239061Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -676,7 +689,7 @@ entries:
     - power-lines-data-service-1.0.21.tgz
     version: 1.0.21
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.232303181Z"
+    created: "2020-07-19T20:15:05.38656115Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -689,7 +702,7 @@ entries:
     - power-lines-data-service-1.0.20.tgz
     version: 1.0.20
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.230876973Z"
+    created: "2020-07-19T20:15:05.385443932Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -702,7 +715,7 @@ entries:
     - power-lines-data-service-1.0.19.tgz
     version: 1.0.19
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.230147169Z"
+    created: "2020-07-19T20:15:05.384903923Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -715,7 +728,7 @@ entries:
     - power-lines-data-service-1.0.18.tgz
     version: 1.0.18
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.229077563Z"
+    created: "2020-07-19T20:15:05.384246712Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -728,7 +741,7 @@ entries:
     - power-lines-data-service-1.0.17.tgz
     version: 1.0.17
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.228065858Z"
+    created: "2020-07-19T20:15:05.3835406Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -741,7 +754,7 @@ entries:
     - power-lines-data-service-1.0.15.tgz
     version: 1.0.15
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.226821151Z"
+    created: "2020-07-19T20:15:05.38292519Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -754,7 +767,7 @@ entries:
     - power-lines-data-service-1.0.14.tgz
     version: 1.0.14
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.226095347Z"
+    created: "2020-07-19T20:15:05.382388481Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -767,7 +780,7 @@ entries:
     - power-lines-data-service-1.0.13.tgz
     version: 1.0.13
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.225322542Z"
+    created: "2020-07-19T20:15:05.381855872Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -780,7 +793,7 @@ entries:
     - power-lines-data-service-1.0.12.tgz
     version: 1.0.12
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.224549438Z"
+    created: "2020-07-19T20:15:05.381251462Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -793,7 +806,7 @@ entries:
     - power-lines-data-service-1.0.11.tgz
     version: 1.0.11
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.223761334Z"
+    created: "2020-07-19T20:15:05.38048845Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -806,7 +819,7 @@ entries:
     - power-lines-data-service-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.238485316Z"
+    created: "2020-07-19T20:15:05.39198874Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -819,7 +832,7 @@ entries:
     - power-lines-data-service-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.237698211Z"
+    created: "2020-07-19T20:15:05.39139023Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -832,7 +845,7 @@ entries:
     - power-lines-data-service-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.236877607Z"
+    created: "2020-07-19T20:15:05.390483015Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -845,7 +858,7 @@ entries:
     - power-lines-data-service-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.236154803Z"
+    created: "2020-07-19T20:15:05.389651101Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -858,7 +871,7 @@ entries:
     - power-lines-data-service-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.235427499Z"
+    created: "2020-07-19T20:15:05.388883388Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -871,7 +884,7 @@ entries:
     - power-lines-data-service-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.234684894Z"
+    created: "2020-07-19T20:15:05.38835288Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -884,7 +897,7 @@ entries:
     - power-lines-data-service-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.233796989Z"
+    created: "2020-07-19T20:15:05.387819771Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -897,7 +910,7 @@ entries:
     - power-lines-data-service-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.231577777Z"
+    created: "2020-07-19T20:15:05.386031941Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -910,7 +923,7 @@ entries:
     - power-lines-data-service-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.223008929Z"
+    created: "2020-07-19T20:15:05.379635936Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -923,7 +936,7 @@ entries:
     - power-lines-data-service-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.222267325Z"
+    created: "2020-07-19T20:15:05.37867042Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -937,7 +950,7 @@ entries:
     version: 1.0.0
   power-lines-fixture-service:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.249342076Z"
+    created: "2020-07-19T20:15:05.399021456Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -950,7 +963,7 @@ entries:
     - power-lines-fixture-service-2.0.5.tgz
     version: 2.0.5
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.248538672Z"
+    created: "2020-07-19T20:15:05.398405546Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -963,7 +976,7 @@ entries:
     - power-lines-fixture-service-2.0.4.tgz
     version: 2.0.4
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.247756867Z"
+    created: "2020-07-19T20:15:05.397811536Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -976,7 +989,7 @@ entries:
     - power-lines-fixture-service-2.0.3.tgz
     version: 2.0.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.246905862Z"
+    created: "2020-07-19T20:15:05.397206526Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -989,7 +1002,7 @@ entries:
     - power-lines-fixture-service-2.0.2.tgz
     version: 2.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.246123758Z"
+    created: "2020-07-19T20:15:05.396625116Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1002,7 +1015,7 @@ entries:
     - power-lines-fixture-service-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.245272453Z"
+    created: "2020-07-19T20:15:05.396042407Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1015,7 +1028,7 @@ entries:
     - power-lines-fixture-service-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.244372448Z"
+    created: "2020-07-19T20:15:05.395403696Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1028,7 +1041,7 @@ entries:
     - power-lines-fixture-service-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.243507044Z"
+    created: "2020-07-19T20:15:05.394825887Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1042,7 +1055,7 @@ entries:
     version: 1.0.0
   power-lines-web:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.256369915Z"
+    created: "2020-07-19T20:15:05.404938454Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1055,7 +1068,7 @@ entries:
     - power-lines-web-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.25540451Z"
+    created: "2020-07-19T20:15:05.404412245Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1068,7 +1081,7 @@ entries:
     - power-lines-web-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.254361904Z"
+    created: "2020-07-19T20:15:05.403873036Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1081,7 +1094,7 @@ entries:
     - power-lines-web-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.253416099Z"
+    created: "2020-07-19T20:15:05.403316427Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1094,7 +1107,7 @@ entries:
     - power-lines-web-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.252686895Z"
+    created: "2020-07-19T20:15:05.402787518Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1107,7 +1120,7 @@ entries:
     - power-lines-web-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.25192519Z"
+    created: "2020-07-19T20:15:05.402206909Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1120,7 +1133,7 @@ entries:
     - power-lines-web-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.251187286Z"
+    created: "2020-07-19T20:15:05.401285493Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1133,7 +1146,7 @@ entries:
     - power-lines-web-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.250460982Z"
+    created: "2020-07-19T20:15:05.399798269Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1147,7 +1160,7 @@ entries:
     version: 1.0.0
   sugar-free-healthy-diet:
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.268553283Z"
+    created: "2020-07-19T20:15:05.41500852Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1160,7 +1173,7 @@ entries:
     - sugar-free-healthy-diet-1.0.22.tgz
     version: 1.0.22
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.267582178Z"
+    created: "2020-07-19T20:15:05.414284908Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1173,7 +1186,7 @@ entries:
     - sugar-free-healthy-diet-1.0.21.tgz
     version: 1.0.21
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.266640772Z"
+    created: "2020-07-19T20:15:05.413632297Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1186,7 +1199,7 @@ entries:
     - sugar-free-healthy-diet-1.0.20.tgz
     version: 1.0.20
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.264836562Z"
+    created: "2020-07-19T20:15:05.412493279Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1199,7 +1212,7 @@ entries:
     - sugar-free-healthy-diet-1.0.19.tgz
     version: 1.0.19
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.264080958Z"
+    created: "2020-07-19T20:15:05.411546763Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1212,7 +1225,7 @@ entries:
     - sugar-free-healthy-diet-1.0.17.tgz
     version: 1.0.17
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.263342754Z"
+    created: "2020-07-19T20:15:05.410653048Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1225,7 +1238,7 @@ entries:
     - sugar-free-healthy-diet-1.0.16.tgz
     version: 1.0.16
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.26256595Z"
+    created: "2020-07-19T20:15:05.409651432Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1238,7 +1251,7 @@ entries:
     - sugar-free-healthy-diet-1.0.15.tgz
     version: 1.0.15
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.261836246Z"
+    created: "2020-07-19T20:15:05.409101222Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1251,7 +1264,7 @@ entries:
     - sugar-free-healthy-diet-1.0.14.tgz
     version: 1.0.14
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.261105242Z"
+    created: "2020-07-19T20:15:05.408507513Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1264,7 +1277,7 @@ entries:
     - sugar-free-healthy-diet-1.0.13.tgz
     version: 1.0.13
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.260322237Z"
+    created: "2020-07-19T20:15:05.407654499Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1277,7 +1290,7 @@ entries:
     - sugar-free-healthy-diet-1.0.12.tgz
     version: 1.0.12
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.259536633Z"
+    created: "2020-07-19T20:15:05.407082789Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1290,7 +1303,7 @@ entries:
     - sugar-free-healthy-diet-1.0.11.tgz
     version: 1.0.11
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.258790529Z"
+    created: "2020-07-19T20:15:05.40653578Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1303,7 +1316,7 @@ entries:
     - sugar-free-healthy-diet-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.275958324Z"
+    created: "2020-07-19T20:15:05.419038687Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1316,7 +1329,7 @@ entries:
     - sugar-free-healthy-diet-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.27516472Z"
+    created: "2020-07-19T20:15:05.418514078Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1329,7 +1342,7 @@ entries:
     - sugar-free-healthy-diet-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.274439416Z"
+    created: "2020-07-19T20:15:05.417988369Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1342,7 +1355,7 @@ entries:
     - sugar-free-healthy-diet-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.273192209Z"
+    created: "2020-07-19T20:15:05.41744596Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1355,7 +1368,7 @@ entries:
     - sugar-free-healthy-diet-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.272414005Z"
+    created: "2020-07-19T20:15:05.416927452Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1368,7 +1381,7 @@ entries:
     - sugar-free-healthy-diet-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.2716444Z"
+    created: "2020-07-19T20:15:05.416345742Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1381,7 +1394,7 @@ entries:
     - sugar-free-healthy-diet-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.270188792Z"
+    created: "2020-07-19T20:15:05.415655131Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1394,7 +1407,7 @@ entries:
     - sugar-free-healthy-diet-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.265661067Z"
+    created: "2020-07-19T20:15:05.413034487Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1407,7 +1420,7 @@ entries:
     - sugar-free-healthy-diet-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.258077425Z"
+    created: "2020-07-19T20:15:05.406014371Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1420,7 +1433,7 @@ entries:
     - sugar-free-healthy-diet-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2020-07-19T19:44:09.257327021Z"
+    created: "2020-07-19T20:15:05.405488663Z"
     dependencies:
     - name: helm-library
       repository: https://helm.lynxmagnus.com
@@ -1432,4 +1445,4 @@ entries:
     urls:
     - sugar-free-healthy-diet-1.0.0.tgz
     version: 1.0.0
-generated: "2020-07-19T19:44:09.181043796Z"
+generated: "2020-07-19T20:15:05.349605139Z"
